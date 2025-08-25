@@ -1,0 +1,16 @@
+names:
+- Car-to-Bicycle-Crash
+- Car-to-Car-Crash
+- Car-to-Motorcycle-Crash
+- Car-to-Pedestrian-Crash
+- License_Plate
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: car-crash-detection-db4vm-utvd2
+  url: https://universe.roboflow.com/najm-xl558/car-crash-detection-db4vm-utvd2/dataset/3
+  version: 3
+  workspace: najm-xl558
+test: ../test/images
+train: ../train/images
+val: ../valid/images
